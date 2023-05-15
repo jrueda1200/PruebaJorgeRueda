@@ -1,0 +1,198 @@
+
+.mx-5 {
+    margin-left: 15vh !important;
+    margin-right: 15vh !important;
+}
+
+.my-5 {
+    margin-top: 15vh !important;
+    margin-bottom: 5vh !important;
+}
+
+.py-5 {
+    padding-top: 10vh !important;
+    padding-bottom: 1vh !important;
+}
+
+#nombres{
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+#posicion{
+    font-style: italic;
+    font-stretch: ultra-condensed;
+    padding-top: 10px;
+}
+
+#imagen-coach{
+    text-align: center;
+    align-content: center;
+}
+
+#footer{
+    background-color: #383737;
+}
+
+
+#body{
+    background-color: #ffffff;
+}
+.about-section {
+    background-color: #f8f9fa;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.about-links {
+    margin-top: 10px;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    border-radius: 10px;
+    border: 2px solid #f8f9fa;
+}
+
+.navbar-light {
+	background-color:transparent !important;
+	font-size:16px;	
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#707279;	
+	font-weight:500;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#moreButton{
+    background-color: #19adf4;
+    border-color: #19adf4;
+    border-radius: 20px;
+    margin-bottom: 7vh;
+    height: 50px;
+    width: 200px;
+    
+}
+
+#button-text{
+    font-size: medium;
+    font-weight: 700;
+    color: #f3f3f3;
+    padding-top: 5px;
+}
+
+#coaches{
+    background-color: #f3f3f3;
+}
+
+
+#numbers-right{
+    color: #888585;
+    opacity: 25%;
+    text-align: right;
+}
+
+#numbers-left{
+    color: #888585;
+    opacity: 25%;
+    text-align: left;
+}
+
+#text-right{
+    text-align: right;
+    padding-bottom: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #888585;
+}
+
+#text-left-title{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: #3c3838;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    font-stretch: condensed;
+}
+#text-right-title{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: #3c3838;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    font-stretch: condensed;
+}
+
+
+#text-left{
+    text-align: left;
+    padding-bottom: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #888585;
+}
+#hero{
+	background-image: url( "../img/header_bg.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	padding: 15% 0 10%;
+	text-align: center;
+	position: relative;
+}
+#hero h1{
+	color: #fff;
+    font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	text-shadow: 0px 1px 2px #000; 
+}
+
+h3{
+    color: #888585;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+h1{
+    color: #3c3838;
+    font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	line-height: 1.5;
+}
+
+
+#hero h3{
+	color: #fff;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	text-shadow: 0px 1px 1px #000; 
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+#hero::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.60);
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#hero .container{
+	z-index: 1000;
+	position: absolute;
+	max-width: 100%;
+}
